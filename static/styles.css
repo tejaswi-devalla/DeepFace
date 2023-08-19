@@ -1,0 +1,59 @@
+.heading {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.background-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+}
+.uploadRegister {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  position: relative;
+  margin-bottom: 10px;
+}
+.fileUploadInput {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  justify-content: space-between;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  margin-bottom: 10px;
+}
+.registerBtn {
+  background-color: #000000;
+  padding: 15px 20px;
+  color: #fff;
+  border-radius: 20px;
+  border-width: 0;
+  cursor: pointer;
+}
+input::file-selector-button {
+  font-weight: bold;
+  color: #000;
+  padding: 0.5em;
+  border: thin solid #000000;
+  border-radius: 3px;
+}
+.recognition {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
